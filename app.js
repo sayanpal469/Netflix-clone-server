@@ -16,7 +16,7 @@ app.use(
 app.use('/api/user', userRouter)
 
 app.get("/", (req, res) => {
-  res.status(200).send("Welcome to Ecommerse server");
+  res.status(200).send("Welcome to Netflix server");
 });
 
 export default app;
